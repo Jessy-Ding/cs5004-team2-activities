@@ -21,5 +21,5 @@ public class FirstLast6_Yanshi_Liu {
         System.out.println(firstLast6(test3)); // false
     }
 }
-//javac FirstLast6.java
-//java FirstLast6
+//javac FirstLast6_Yanshi_Liu.java
+//java FirstLast6_Yanshi_Liu

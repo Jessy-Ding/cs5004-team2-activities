@@ -1,3 +1,4 @@
+
 /**
  * CodingBat: Array-3 > fix34
  * <p>
@@ -11,9 +12,10 @@
  * fix34([3, 2, 2, 4]) → [3, 4, 2, 2]
  * }</pre>
  * @author Mengyuan Ding
- * @date 2026-01-25
- * @course CS5004 (Object-Oriented Programming)
+ * @since 2026-01-25
+ * course CS5004 (Object-Oriented Programming)
  */
+
 public class Fix34 {
         public int[] fix34(int[] nums) {
                 int fourIndex = 0;

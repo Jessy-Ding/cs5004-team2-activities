@@ -9,10 +9,8 @@ gradlew
 gradlew.bat
 *.iml
 **/*.iml
-
-# Root level gradle files (keep if you want, but usually ignored in this repo)
-# build.gradle
-# settings.gradle
+build.gradle
+settings.gradle
 
 # Keep module directories and their contents, but exclude build folders
 !module*/

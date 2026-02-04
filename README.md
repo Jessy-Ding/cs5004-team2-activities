@@ -5,7 +5,7 @@ This repository contains the Java practice problems implemented as part of the t
 
 ## Course Information
 - **Course:** CS 5004 — Object-Oriented Design
-- **Professor:** Monge, Alvaro
+- **Professor:** Monge, Alvaro, Ph.D.
 - **TA:** Supriya Tiwari
 
 ## Project Structure

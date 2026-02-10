@@ -12,7 +12,8 @@ This repository contains the Java practice problems implemented as part of the t
 The project is organized into multiple modules, each containing specific Java exercises and their corresponding unit tests:
 
 - **module03**: Contains basic array and logic problems (e.g., `Fix34`, `FirstLast6`, `MakeEven`, `SameFirstLast`).
-- **module04**: 
+- **module04**: Contains string and logic problems (e.g., `MaxTriple`, `SeeColor`, `average`, `WordMultiple`).
+- **module05**: 
 
 ## Technologies Used
 - **Java**: Primary programming language.

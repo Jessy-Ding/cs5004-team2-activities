@@ -5,17 +5,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This is the JUnit test for class wordMultiple.
+ * This is the JUnit test for class WordMultiple.
  * @author Mengyuan Ding
  * @since 2026-02-03
  * course CS5004 (Object-Oriented Programming)
  */
-public class wordMultipleTest {
-    private wordMultiple wm;
+public class WordMultipleTest {
+    private WordMultiple wm;
 
     @Before
     public void setUp() {
-        wm = new wordMultiple();
+        wm = new WordMultiple();
     }
 
     @Test

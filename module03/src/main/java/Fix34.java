@@ -18,13 +18,11 @@
 
 public class Fix34 {
         public int[] fix34(int[] nums) {
-                int fourIndex = 0;
-
                 for (int i = 0; i < nums.length; i++) {
                         if (nums[i] == 3) {
-
+                                int fourIndex = 0;
                                 // find the next 4 that is NOT already after a 3
-                                while (fourIndex < nums.length && nums[fourIndex] != 4) {
+                                while (fourIndex < nums.length && (nums[fourIndex] != 4 || (fourIndex > 0 && nums[fourIndex - 1] == 3))) {
                                         fourIndex++;
                                 }
 
@@ -33,8 +31,6 @@ public class Fix34 {
                                     int temp = nums[i + 1];
                                     nums[i + 1] = nums[fourIndex];
                                     nums[fourIndex] = temp;
-                                    
-                                    fourIndex++; // move one index for next search
                                 }
                         }
                 }

@@ -40,4 +40,12 @@ public class Fix34Test {
                 f.fix34(new int[]{3, 2, 2, 4})
         );
     }
+
+    @Test
+    public void testFourBeforeThree() {
+        assertArrayEquals(
+                new int[]{1, 1, 1, 3, 4},
+                f.fix34(new int[]{1, 4, 1, 3, 1})
+        );
+    }
 }

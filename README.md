@@ -11,13 +11,13 @@ This repository contains the Java practice problems implemented as part of the t
 ## Project Structure
 The project is organized into multiple modules, each containing specific Java exercises and their corresponding unit tests:
 
-These projects are written by the *old team1* members, including Kecheng Hu, Mengyuan Ding, Yanshi Liu and Yikang Liu.
+These projects are written by the **old team1** members, including Kecheng Hu, Mengyuan Ding, Yanshi Liu and Yikang Liu.
 - **module03**: Contains basic array and logic problems (e.g., `Fix34`, `FirstLast6`, `MakeEven`, `SameFirstLast`).
 - **module04**: Contains string and logic problems (e.g., `MaxTriple`, `SeeColor`, `average`, `WordMultiple`).
 - **module05**: Contains recursion, array and logic problems (e.g.,`GroupSum`, `Sum2`, `RepeatFront`, `PasswordLength`).
 
 
-These projects are written by the new team2 members, namely, Kecheng Hu, Mengyuan Ding, Yunmengze Fang, and Hongkun Yi.
+These projects are written by the **new team2** members, namely, Kecheng Hu, Mengyuan Ding, Yunmengze Fang, and Hongkun Yi.
 - **module06**: 
 
 

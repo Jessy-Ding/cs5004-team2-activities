@@ -1,4 +1,4 @@
-# CS 5004 (2026Spring) - Team1 Java Practice Problems
+# CS 5004 (2026Spring) - New Team2 Java Practice Problems
 ### Khoury College of Computer Sciences, Northeastern University, Oakland, CA
 
 This repository contains the Java practice problems implemented as part of the team activity assignment for **CS 5004: Object-Oriented Design**.
@@ -11,9 +11,16 @@ This repository contains the Java practice problems implemented as part of the t
 ## Project Structure
 The project is organized into multiple modules, each containing specific Java exercises and their corresponding unit tests:
 
+These projects are written by the *old team1* members, including Kecheng Hu, Mengyuan Ding, Yanshi Liu and Yikang Liu.
 - **module03**: Contains basic array and logic problems (e.g., `Fix34`, `FirstLast6`, `MakeEven`, `SameFirstLast`).
 - **module04**: Contains string and logic problems (e.g., `MaxTriple`, `SeeColor`, `average`, `WordMultiple`).
-- **module05**: 
+- **module05**: Contains recursion, array and logic problems (e.g.,`GroupSum`, `Sum2`, `RepeatFront`, `PasswordLength`).
+
+
+These projects are written by the new team2 members, namely, Kecheng Hu, Mengyuan Ding, Yunmengze Fang, and Hongkun Yi.
+- **module06**: 
+
+
 
 ## Technologies Used
 - **Java**: Primary programming language.

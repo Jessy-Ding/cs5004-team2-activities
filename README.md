@@ -18,7 +18,7 @@ These projects are written by the **old team1** members, including Kecheng Hu, M
 
 
 These projects are written by the **new team2** members, namely, Kecheng Hu, Mengyuan Ding, Yunmengze Fang, and Hongkun Yi.
-- **module06**: 
+- **module06**: Contains collections, map, array, and iteration practice problems (e.g., `ArrayListPractice`, `Word0Practice`, `Array2zeroFrontPractice`, `RoundSum`).
 
 
 
@@ -26,16 +26,3 @@ These projects are written by the **new team2** members, namely, Kecheng Hu, Men
 - **Java**: Primary programming language.
 - **Gradle**: Build automation tool for managing dependencies and running tests.
 - **JUnit 4**: Framework used for unit testing the solutions.
-
-## How to Run Tests
-To run all tests in the project using Gradle, use the following command from the root directory:
-
-```bash
-./gradlew test
-```
-
-To run tests for a specific module:
-
-```bash
-./gradlew :moduleXX:test
-```

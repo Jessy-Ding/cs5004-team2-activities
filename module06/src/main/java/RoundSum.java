@@ -7,9 +7,24 @@
  * @version CS5004 Object-Oriented Design
  */
 public class RoundSum {
+    /**
+     * Returns the sum of each input rounded to the nearest multiple of 10.
+     *
+     * @param a first value
+     * @param b second value
+     * @param c third value
+     * @return sum of rounded values
+     */
     public static int roundSum(int a, int b, int c) {
         return roundHelper(a) + roundHelper(b) + roundHelper(c);
     }
+
+    /**
+     * Rounds one value to the nearest multiple of 10.
+     *
+     * @param a value to round
+     * @return rounded value
+     */
     public static int roundHelper(int a) {
         if (a%10 <5) {
             return (a - a%10);

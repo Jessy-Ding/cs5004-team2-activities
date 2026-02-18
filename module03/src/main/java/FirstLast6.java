@@ -6,11 +6,21 @@
  */
 public class FirstLast6 {
 
+    /**
+     * Returns whether the first or last element in the array is 6.
+     *
+     * @param nums input integer array
+     * @return {@code true} if the first or last element is 6; otherwise {@code false}
+     */
     public static boolean firstLast6(int[] nums) {
         return nums[0] == 6 || nums[nums.length -1] == 6;
     }
 
-    // main method for testing
+    /**
+     * Runs simple manual examples for quick verification.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         int[] test1 = {1, 2, 6};
         int[] test2 = {6, 1, 2, 3};

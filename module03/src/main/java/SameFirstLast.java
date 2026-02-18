@@ -9,6 +9,12 @@
 
 
 public class SameFirstLast {
+    /**
+     * Returns whether the first and last elements are equal in a non-empty array.
+     *
+     * @param nums input integer array
+     * @return {@code true} if array is non-empty and first element equals last element
+     */
     public boolean sameFirstLast(int[] nums) {
         if(nums.length == 0) {
             return false;

@@ -28,6 +28,11 @@ import java.util.Scanner;
  * course CS5004 (Object-Oriented Programming)
  */
 public class ArrayListPractice {
+    /**
+     * Reads input rows and queries, then prints queried values or {@code ERROR!}.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

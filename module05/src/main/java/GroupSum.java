@@ -15,6 +15,14 @@
  * course CS5004 (Object-Oriented Programming)
  */
 public class GroupSum {
+    /**
+     * Determines recursively whether a subset can sum to the target.
+     *
+     * @param start current index in the array
+     * @param nums input integer array
+     * @param target remaining target sum
+     * @return {@code true} if a valid subset exists; otherwise {@code false}
+     */
     public boolean groupSum(int start, int[] nums, int target){
     // base case
     if (start == nums.length) return target == 0;

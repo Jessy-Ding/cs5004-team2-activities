@@ -15,6 +15,12 @@
  * course CS5004 (Object-Oriented Programming)
  */
 public class Sum2 {
+    /**
+     * Returns the sum of the first two elements, or fewer when array is short.
+     *
+     * @param nums input integer array
+     * @return sum of first two elements, one element, or zero
+     */
     public int sum2(int[] nums) {
         if (nums.length == 0) {
             return 0;

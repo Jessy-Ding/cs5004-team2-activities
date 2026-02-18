@@ -8,6 +8,13 @@
  * @version CS5004 object-oriented design
  */
 public class RepeatFront {
+    /**
+     * Builds a repeated-prefix string from length {@code n} down to 1.
+     *
+     * @param str source string
+     * @param n maximum prefix length
+     * @return concatenation of prefixes of lengths n, n-1, ..., 1
+     */
     public static String repeatFront(String str, int n) {
         StringBuilder result = new StringBuilder();
         for( int i = n; i > 0; i--) {

@@ -8,6 +8,12 @@
  */
 
 public class MakeEven {
+    /**
+     * Ensures the returned string has even length by appending one space if needed.
+     *
+     * @param phrase input text
+     * @return original text if length is even; otherwise text plus one trailing space
+     */
     public String makeEven(String phrase) {
         if (phrase.length() % 2 != 0) {
             return phrase + " ";

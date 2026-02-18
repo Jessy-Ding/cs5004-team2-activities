@@ -1,7 +1,7 @@
 /**
- * Name: Yunmengze Fang
+ * @author: Yunmengze Fang
  * Course: CS5004
- * Date: February 10, 2026
+ * @since: February 10, 2026
  *
  * Test class for zeroFront method.
  */

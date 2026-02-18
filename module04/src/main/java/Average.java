@@ -8,6 +8,14 @@
  */
 
 public class Average {
+    /**
+     * Computes the arithmetic mean of three values.
+     *
+     * @param a first value
+     * @param b second value
+     * @param c third value
+     * @return average of {@code a}, {@code b}, and {@code c}
+     */
     public double average(double a, double b, double c) {
         return (a + b + c) / 3.0;
     }

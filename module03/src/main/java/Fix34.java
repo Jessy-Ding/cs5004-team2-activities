@@ -17,6 +17,12 @@
  */
 
 public class Fix34 {
+        /**
+         * Rearranges the array so that every 3 is immediately followed by a 4.
+         *
+         * @param nums input array with equal counts of 3 and 4
+         * @return rearranged array where each 3 is followed by 4
+         */
         public int[] fix34(int[] nums) {
                 for (int i = 0; i < nums.length; i++) {
                         if (nums[i] == 3) {

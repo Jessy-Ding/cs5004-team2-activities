@@ -9,6 +9,9 @@
 public class PasswordLength {
     /**
      * Checks if the password length is valid (at least 8 characters).
+     *
+     * @param password password string to validate
+     * @return {@code true} when password is non-null and length is at least 8
      */
     public static boolean isValidPasswordLength(String password) {
         // Handle null input

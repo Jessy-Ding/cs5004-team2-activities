@@ -10,6 +10,12 @@
 
 public class SeeColor {
 
+    /**
+     * Returns {@code "red"} or {@code "blue"} if the input starts with one of them.
+     *
+     * @param str input string
+     * @return matching color prefix, or empty string if none matches
+     */
     public String seeColor(String str) {
         if (str.startsWith("red")) {
             return "red";
@@ -20,6 +26,11 @@ public class SeeColor {
         }
     }
 
+    /**
+     * Runs simple manual examples for quick verification.
+     *
+     * @param args command-line arguments (not used)
+     */
     public static void main(String[] args) {
         SeeColor sc = new SeeColor();
         System.out.println(sc.seeColor("redxx"));

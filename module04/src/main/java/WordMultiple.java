@@ -18,6 +18,12 @@ import java.util.Map;
  */
 
 public class WordMultiple {
+    /**
+     * Builds a map whose value is true when a word appears two or more times.
+     *
+     * @param strings input array of words
+     * @return map from each distinct word to its repeated/non-repeated flag
+     */
     public Map<String, Boolean> wordMultiple(String[] strings) {
         Map<String, Boolean> result = new HashMap<>();
         for (String s : strings) {

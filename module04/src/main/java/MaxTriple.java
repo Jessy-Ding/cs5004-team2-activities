@@ -7,6 +7,12 @@
  * course CS5004 (Object-Oriented Programming)
  */
 public class MaxTriple {
+    /**
+     * Returns the largest among the first, middle, and last elements.
+     *
+     * @param nums input array of odd length
+     * @return maximum of first, middle, and last values
+     */
     public static int maxTriple(int[] nums) {
         if (nums.length < 1) {
             return -1;

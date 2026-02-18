@@ -1,7 +1,12 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-
+/**
+ * This is used to test RoundSum.
+ * @author Kecheng Hu(Caesar)
+ * @since 02/17/2026
+ * @version CS5004 Object-Oriented Design
+ */
 class RoundSumTest {
 
     @Test

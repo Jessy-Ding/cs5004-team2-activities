@@ -1,7 +1,7 @@
 /**
- * Name: Hongkun Yi
+ * @author  Hongkun Yi
  * Course: CS5004
- * Date: February 18, 2026
+ * @since February 18, 2026
  *
  * CodingBat - Array-3 - maxSpan
  *

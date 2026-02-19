@@ -1,7 +1,7 @@
 /**
- * @author  Yunmengze Fang
+ * @author: Yunmengze Fang
  * Course: CS5004
- * @since February 18, 2026
+ * @since: February 18, 2026
  *
  * CodingBat - Array-2 - either24
  *

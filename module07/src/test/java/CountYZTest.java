@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/*
+/**
  * JUnit test for class countYZ
  * @author Mengyuan Ding
  * @since 2026-02-18

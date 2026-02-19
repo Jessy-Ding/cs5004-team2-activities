@@ -16,5 +16,22 @@
  * @since 2026-02-18
  * course CS5004 (Object-Oriented Programming)
  */
-public class countYZ {
+public class CountYZ {
+    public int countYZ(String str) {
+        int count = 0;
+        String lower = str.toLowerCase();
+
+        for (int i = 0; i < lower.length(); i++) {
+            char current = lower.charAt(i);
+            if (current == 'y' || current == 'z') {
+                boolean atEnd = (i == lower.length() - 1);
+                boolean nextIsNotLetter = !atEnd && !Character.isLetter(lower.charAt(i + 1));
+                if (atEnd || nextIsNotLetter) {
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
 }

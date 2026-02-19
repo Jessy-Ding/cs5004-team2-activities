@@ -1,0 +1,6 @@
+rootProject.name = "java_excercise_team"
+include("module03")
+include("module04")
+include("module05")
+include("module06")
+include("module07")

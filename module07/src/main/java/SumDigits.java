@@ -10,6 +10,7 @@
  */
 public class SumDigits {
     public static int sumDigits(int n) {
+        //base case
         if (n<10) {
             return n;
         }

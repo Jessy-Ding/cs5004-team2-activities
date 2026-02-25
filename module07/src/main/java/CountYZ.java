@@ -1,9 +1,10 @@
 /**
  * CodingBat: String-3 > countYZ
- * Given a string, count the number of words ending in 'y' or 'z'
- * -- so the 'y' in "heavy" and the 'z' in "fez" count, but not the 'y' in "yellow" (not case sensitive).
- * We'll say that a y or z is at the end of a word if there is not an alphabetic letter immediately following it.
- * (Note: Character.isLetter(char) tests if a char is an alphabetic letter.)
+ * Given a string, count the number of words ending in {@code y} or {@code z}
+ * (case-insensitive).
+ * A {@code y} or {@code z} is considered to end a word if it is the last character
+ * in the string or the next character is not an alphabetic letter.
+ * ({@link Character#isLetter(char)} is used for this check.)
  * <p>
  * {@code
  * countYZ("fez day") → 2
@@ -17,6 +18,12 @@
  * course CS5004 (Object-Oriented Programming)
  */
 public class CountYZ {
+    /**
+     * Counts word endings in the input string that end with {@code y} or {@code z}.
+     *
+     * @param str input string to inspect
+     * @return number of word endings that are {@code y} or {@code z}
+     */
     public int countYZ(String str) {
         int count = 0;
         String lower = str.toLowerCase();

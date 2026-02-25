@@ -1,15 +1,13 @@
 /**
- * @author  Hongkun Yi
- * Course: CS5004
- * @since February 18, 2026
- *
- * CodingBat - Array-3 - maxSpan
- *
+ * CodingBat: Array-3 > maxSpan.
  * Consider the leftmost and rightmost appearances of some value in an array.
  * The "span" is the number of elements between the two inclusive.
  * A single value has a span of 1.
- *
  * Returns the largest span found in the given array.
+ *
+ * @author Hongkun Yi
+ * @since 2026-02-18
+ * course CS5004 (Object-Oriented Programming)
  */
 public class MaxSpanPractice {
 

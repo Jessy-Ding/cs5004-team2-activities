@@ -1,14 +1,24 @@
 /**
- * Given a non-negative int n, return the sum of its digits recursively (no loops).
- * Note that mod (%) by 10 yields the rightmost digit (126 % 10 is 6), while divide (/) by 10 removes the rightmost digit (126 / 10 is 12).
- * sumDigits(126) → 9
- * sumDigits(49) → 13
- * sumDigits(12) → 3
+ * CodingBat: Recursion-1 > sumDigits.
+ *
+ * <p>Given a non-negative integer {@code n}, returns the sum of its digits recursively
+ * (without loops). Mod by 10 gets the rightmost digit and division by 10 removes
+ * the rightmost digit.</p>
+ *
+ * <p>Examples:
+ * {@code sumDigits(126) = 9}, {@code sumDigits(49) = 13}, {@code sumDigits(12) = 3}</p>
+ *
  * @author Kecheng Hu(Caesar)
- * @since 02/18/2026
- * @version CS5004 Object-Oriented Programming
+ * @since 2026-02-18
+ * course CS5004 (Object-Oriented Programming)
  */
 public class SumDigits {
+    /**
+     * Recursively computes the digit sum for a non-negative integer.
+     *
+     * @param n non-negative integer input
+     * @return sum of all decimal digits in {@code n}
+     */
     public static int sumDigits(int n) {
         //base case
         if (n<10) {

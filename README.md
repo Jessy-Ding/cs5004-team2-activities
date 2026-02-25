@@ -19,7 +19,7 @@ These projects are written by the **old team1** members, including Kecheng Hu, M
 
 These projects are written by the **new team2** members, namely, Kecheng Hu, Mengyuan Ding, Yunmengze Fang, and Hongkun Yi.
 - **module06**: Contains collections, map, array, and iteration practice problems (e.g., `ArrayListPractice`, `Word0Practice`, `Array2zeroFrontPractice`, `RoundSum`).
-
+- **module07**: Contains string, array and recursion problems (e.g.,`Array2either24Practice`, `CountYZ`, `MaxSpanPractice`, `SumDigitdiv2`).
 
 
 ## Technologies Used

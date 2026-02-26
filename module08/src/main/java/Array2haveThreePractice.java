@@ -1,7 +1,7 @@
 /**
- * @author: Yunmengze Fang
+ * @author Yunmengze Fang
  * Course: CS5004
- * @since: February 10, 2026
+ * @since February 25, 2026
  *
  * CodingBat - Array-2 - haveThree
  *

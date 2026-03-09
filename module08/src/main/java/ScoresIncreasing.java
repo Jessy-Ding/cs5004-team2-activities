@@ -10,18 +10,22 @@
  * </p>
  *
  * @author Mengyuan Ding
- * @since 2026-02-18
+ * @since 2026-03-09
  * course CS5004 (Object-Oriented Programming)
  */
 public class ScoresIncreasing {
     /**
-     * Returns the sum of two integers.
+     * Check if the integers in the original list are in ascending order.
      *
-     * @param a first number
-     * @param b second number
-     * @return a + b
+     * @param `int[] scores` an array of integers
+     * @return boolean true for numbers in ascending order, false otherwise.
      */
-    public int add(int a, int b) {
-        return a + b;
+    public boolean scoresIncreasing(int[] scores) {
+        for (int i = 1; i < scores.length; i++) {
+            if (scores[i] < scores[i - 1]) {
+                return false;
+            }
+        }
+        return true;
     }
 }

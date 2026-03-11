@@ -1,3 +1,6 @@
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
 /**
  * @author Yunmengze Fang
  * Course: CS5004
@@ -5,30 +8,23 @@
  *
  * Test class for haveThree method.
  */
-
-import java.util.Arrays;
-
 public class Array2haveThreePracticeTest {
 
-    public static void main(String[] args) {
-
+    @Test
+    public void testHaveThreeCase1() {
         Array2haveThreePractice y = new Array2haveThreePractice();
+        assertTrue(y.haveThree(new int[]{3, 1, 3, 1, 3}));
+    }
 
-        int[] test1 = {3, 1, 3, 1, 3};
-        System.out.println("Test 1 Input:  " + Arrays.toString(test1));
-        System.out.println("Expected:      true");
-        System.out.println("Actual:        " + y.haveThree(test1));
-        System.out.println();
+    @Test
+    public void testHaveThreeCase2() {
+        Array2haveThreePractice y = new Array2haveThreePractice();
+        assertFalse(y.haveThree(new int[]{3, 1, 3, 3}));
+    }
 
-        int[] test2 = {3, 1, 3, 3};
-        System.out.println("Test 2 Input:  " + Arrays.toString(test2));
-        System.out.println("Expected:      false");
-        System.out.println("Actual:        " + y.haveThree(test2));
-        System.out.println();
-
-        int[] test3 = {3, 4, 3, 3, 4};
-        System.out.println("Test 3 Input:  " + Arrays.toString(test3));
-        System.out.println("Expected:      false");
-        System.out.println("Actual:        " + y.haveThree(test3));
+    @Test
+    public void testHaveThreeCase3() {
+        Array2haveThreePractice y = new Array2haveThreePractice();
+        assertFalse(y.haveThree(new int[]{3, 4, 3, 3, 4}));
     }
 }

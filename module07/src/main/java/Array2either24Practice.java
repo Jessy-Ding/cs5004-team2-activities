@@ -1,29 +1,30 @@
 /**
- * CodingBat: Array-2 > either24.
+ * Name: Yunmengze Fang
+ * Course: CS5004
+ * Date: February 18, 2026
  *
- * <p>Returns whether an array contains adjacent {@code 2}s or adjacent {@code 4}s,
- * but not both conditions at the same time.</p>
+ * Assignment: CodingBat Array-2 - either24
+ *
+ * Given an array of ints, return true if the array contains
+ * a 2 next to a 2 or a 4 next to a 4, but not both.
  *
  * @author Yunmengze Fang
- * @since 2026-02-18
- * course CS5004 (Object-Oriented Programming)
+ * @since February 18, 2026
  */
-
 public class Array2either24Practice {
+
     /**
-     * Checks for adjacent {@code 2}s and adjacent {@code 4}s, then returns true only when
-     * exactly one pattern is present.
+     * Determines whether the array contains adjacent 2s
+     * or adjacent 4s, but not both.
      *
-     * @param nums input integer array
-     * @return {@code true} if the array has {@code 22} xor {@code 44}; otherwise {@code false}
+     * @param nums the input integer array
+     * @return true if exactly one condition is satisfied; false otherwise
      */
     public boolean either24(int[] nums) {
-
         boolean has22 = false;
         boolean has44 = false;
 
         for (int i = 0; i < nums.length - 1; i++) {
-
             if (nums[i] == 2 && nums[i + 1] == 2) {
                 has22 = true;
             }
@@ -33,7 +34,6 @@ public class Array2either24Practice {
             }
         }
 
-        // return true if exactly one of them is true
         return has22 ^ has44;
     }
 }

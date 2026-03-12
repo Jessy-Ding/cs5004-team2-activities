@@ -8,7 +8,7 @@
  * values to its right do not count.
  *
  * @author Yunmengze Fang
- * @since February 25, 2026
+ * @since March 11, 2026
  */
 
 public class LuckySumPractice {

@@ -1,53 +1,12 @@
 /**
- * HackerRank-Java Inheritance I
- * Using inheritance, one class can acquire the properties of others. Consider the following Animal class:
- * <pre>{@code
- * class Animal{
- *     void walk(){
- *         System.out.println("I am walking");
- *     }
- * }
- * }</pre>
- * This class has only one method, walk. Next, we want to create a Bird class that also has a fly method. We do this using extends keyword:
- * <pre>{@code
- * class Bird extends Animal {
- *     void fly() {
- *         System.out.println("I am flying");
- *     }
- * }
- * }</pre>
- * Finally, we can create a Bird object that can both fly and walk.
+ * Base animal type that can walk.
  *
- * <pre>{@code
- * public class Solution{
- *    public static void main(String[] args){
- *
- *       Bird bird = new Bird();
- *       bird.walk();
- *       bird.fly();
- *    }
- * }
- * }</pre>
- * The above code will print:
- * <pre>{@code
- * I am walking
- * I am flying
- * }</pre>
- * This means that a Bird object has all the properties that an Animal object has, as well as some additional unique properties.
- *
- * The code above is provided for you in your editor. You must add a sing method to the Bird class, then modify the main method accordingly so that the code prints the following lines:
- * <pre>{@code
- * I am walking
- * I am flying
- * I am singing
- * }</pre>
+ * <p>This HackerRank inheritance example defines shared behavior in {@code Animal}
+ * and lets {@code Bird} inherit it.
  *
  * @author Mengyuan Ding
  * @since 2026-03-11
- * course CS5004
- */
-/**
- * Base animal type that can walk.
+ * CS5004 Object-Oriented Design
  */
 class Animal{
     /**
@@ -60,6 +19,8 @@ class Animal{
 
 /**
  * Bird subtype that inherits walking and adds flying and singing behavior.
+ *
+ * @since 2026-03-11
  */
 class Bird extends Animal{
     /**
@@ -79,6 +40,8 @@ class Bird extends Animal{
 
 /**
  * Entry point that demonstrates inherited and bird-specific behavior.
+ *
+ * @since 2026-03-11
  */
 class Solution{
     /**

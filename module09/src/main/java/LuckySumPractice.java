@@ -1,17 +1,20 @@
 /**
- * Course: CS5004
+ * Solves the CodingBat {@code luckySum} exercise.
  *
- * CodingBat Logic-2 - luckySum
- *
- * Given 3 int values, a b c, return their sum. However, if one
- * of the values is 13 then it does not count towards the sum and
- * values to its right do not count.
+ * <p>The sum stops at the first occurrence of {@code 13}; that value and every value
+ * to its right are ignored.
  *
  * @author Yunmengze Fang
  * @since March 11, 2026
+ * @version CS5004 Object-Oriented Design
  */
 
 public class LuckySumPractice {
+    /**
+     * Creates a solver for lucky-sum calculations.
+     */
+    public LuckySumPractice() {
+    }
 
     /**
      * Returns the sum of three integers following the luckySum rule.

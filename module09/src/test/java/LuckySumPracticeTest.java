@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
  *
  * @author Yunmengze Fang
  * @since March 11, 2026
+ * CS5004 Object-Oriented Design
  */
 
 public class LuckySumPracticeTest {
